@@ -10,7 +10,8 @@ const Shelf = (props) => {
         title = {data.productName}
         price = {data.price}
         key = {data.key}
-        add = {props.addToCart} />
+        add = {props.addToCart}
+        data = {data} />
       )
     })
     return renderedProducts;

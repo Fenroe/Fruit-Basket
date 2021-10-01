@@ -5,8 +5,8 @@ import React, { useState } from "react";
 const Store = () => {
   const [cart, setCart] = useState([]);
 
-  const addToCart = (item) => {
-    setCart(cart.concat([item]));
+  const addToCart = (items) => {
+    setCart(cart.concat(items));
   };
 
   return (
