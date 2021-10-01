@@ -1,4 +1,6 @@
-const Navbar = () => {
+import Cart from "./Cart";
+
+const Navbar = (props) => {
   return (
     <div>
       <ul>
@@ -9,9 +11,7 @@ const Navbar = () => {
           <a href = './store'>Store</a>
         </li>
       </ul>
-      <div>
-        <p>Basket</p>
-      </div>
+      {props.cart ? <Cart data = {props.cart}/> : null}
     </div>
   )
 }
