@@ -18,7 +18,7 @@ const Shelf = (props) => {
   }
 
   return (
-    <div>
+    <div className = 'store-shelf'>
       {renderProducts()}
     </div>
   )

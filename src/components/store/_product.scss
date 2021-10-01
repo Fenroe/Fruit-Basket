@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-color: $light;
 }
 
 .product-card-heading {
@@ -14,6 +15,7 @@
   font-weight: 700;
   letter-spacing: .1rem;
   text-align: center;
+  color: $darker;
 }
 
 .product-card-image {
@@ -34,14 +36,17 @@
 }
 
 .product-card-input {
-  width: 3rem;
-  height: 2.5rem;
+  width: 3.5rem;
+  height: 3rem;
   padding-left: .5rem;
   font-size: 2rem;
+  background-color: $lightest;
+  color: $darker;
 }
 
 .product-card-icon {
   font-size: 2rem;
+  color: $darker;
 
   &:hover {
     cursor: pointer;
@@ -53,8 +58,12 @@
   border: 1px solid black;
   border-radius: 1rem;
   width: 15rem;
+  background-color: $dark;
+  color: $lightest;
 
   &:hover {
     cursor: pointer;
+    background-color: $lightest;
+    color: $dark;
   }
 }
