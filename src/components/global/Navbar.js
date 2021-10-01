@@ -2,13 +2,13 @@ import Cart from "./Cart";
 
 const Navbar = (props) => {
   return (
-    <div>
-      <ul>
-        <li>
-          <a href = './'>Home</a>
+    <div className = 'nav'>
+      <ul className = 'site-links'>
+        <li className = 'site-links-item'>
+          <a className = 'site-links-item' href = './'>Home</a>
         </li>
-        <li>
-          <a href = './store'>Store</a>
+        <li className = 'site-links-item'>
+          <a className = 'site-links-item' href = './store'>Store</a>
         </li>
       </ul>
       {props.cart ? <Cart data = {props.cart}/> : null}

@@ -1,0 +1,21 @@
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $darker;
+}
+
+.site-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.site-links-item {
+  text-decoration: none;
+  color: $light;
+  font-size: 2rem;
+  font-weight: 700;
+}
