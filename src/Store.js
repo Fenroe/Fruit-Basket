@@ -10,9 +10,8 @@ const Store = () => {
   };
 
   return (
-    <div>
+    <div className = 'store-page'>
       <Navbar cart = {cart}/>
-      <h1>Hello from Store</h1>
       <Shelf addToCart = {addToCart}/>
     </div>
   )

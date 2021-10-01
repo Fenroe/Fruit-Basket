@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.store-page {
+  background-color: #798777;
+}
+
 .store-shelf {
   width: 100rem;
   display: -webkit-box;
