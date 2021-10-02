@@ -1,0 +1,21 @@
+.home-page {
+  background-color: $darker;
+  height: 100vh;
+}
+
+.home-page-content {
+  padding: 5rem; 
+}
+
+.home-heading {
+  font-size: 10rem;
+  text-align: center;
+  color: $light;
+  font-weight: 700;
+}
+
+.home-subheading {
+  font-size: 4rem;
+  text-align: center;
+  color: $light;
+}
