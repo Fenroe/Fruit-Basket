@@ -1,4 +1,4 @@
-import Cart from "./Cart";
+import CartIcon from "./Cart";
 
 const Navbar = (props) => {
   return (
@@ -11,7 +11,7 @@ const Navbar = (props) => {
           <a className = 'site-links-item' href = './store'>Store</a>
         </li>
       </ul>
-      {props.cart ? <Cart data = {props.cart}/> : null}
+      {props.cart ? <CartIcon data = {props.cart}/> : null}
     </div>
   )
 }

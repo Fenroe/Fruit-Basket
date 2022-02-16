@@ -1,4 +1,4 @@
-const Cart = (props) => {
+const CartIcon = (props) => {
   return (
     <div className = 'cart'>
       <p className = 'cart-quantity'>{props.data.length}</p>
@@ -7,4 +7,4 @@ const Cart = (props) => {
   )
 }
 
-export default Cart;
+export default CartIcon;
